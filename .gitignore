@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment files
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Build output
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.next/
+.nuxt/
+.tmp/
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# TypeScript output (if using TS)
+*.tsbuildinfo
+
+# PM2 logs / dumps
+.pids
+.pm2/logs
+.pm2/pids
+.pm2/agent.json
+.pm2/rpc.sock
+.pm2/pub.sock
+
+# Optional: Prisma
+prisma/.env
+prisma/migrations/*-dev/
+
+# Optional: Sequelize
+sequelize-data/
+
+# Optional: Uploads
+uploads/
+public/uploads/
+
+# Optional: AWS SAM / Serverless
+.aws-sam/
+.serverless/
+
+# Optional: Docker
+docker-data/
